@@ -1,0 +1,97 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #30080B;
+}
+.header{
+    padding: 30px;
+    text-align: center;
+    background: #205EA6;
+    color: #30080B;
+    cursor: default
+}
+.topnav{
+    background-color: #183BF0;
+    overflow: hidden;
+    position: sticky;
+  	top: 0;
+}
+.topnav a{
+    float: left;
+    display: block;
+    color: #30080B;
+    font-weight:bolder;
+    text-decoration: none;
+    padding: 20px 20px;
+}
+.topnav a:hover{
+    background-color: #30080B;
+    color: #183BF0;
+    font-weight: bolder;
+}
+.main{
+    padding: 30px;
+    text-align: center;
+    background: #B4CAF2;
+    color: black;
+    font-weight:bold;
+}
+.footer{
+    padding: 20px;
+    text-align: center;
+    background: #30080B;
+    color:  #1152CC;
+    cursor: default;
+}
+fieldset{
+    border: 3px ridge rgb(175, 0, 0);
+}
+legend{
+    background-color: #333;
+    color: rgb(0, 202, 202);
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    cursor: default;
+    border: 3px ridge rgb(175, 0, 0);
+}
+label{
+	color:black;
+}
+.inputfield{
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 2px solid #333;
+}
+.inputfield:focus{
+    background-color: #e1e1d0;
+}
+.submitbtn{
+    padding: 16px 32px;
+    background-color: #333; 
+    color: white; 
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+    border-radius: 12px;
+    border: 2px solid white;
+    text-decoration:none;
+}
+.submitbtn:hover{
+    color: #333;
+    background-color: white;
+    border: 2px solid #333;
+}
+.already{
+    color: black;
+    text-decoration: none;
+}
+.already:hover{
+    color: white;
+    text-decoration: underline;
+}
